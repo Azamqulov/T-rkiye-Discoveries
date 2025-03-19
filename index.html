@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Türkiye Keşifleri | Eşsiz Turizm Deneyimleri</title>
+  <meta name="description" content="Türkiye'nin en güzel yerlerini keşfedin. Kültürel ve tarihi turlar, doğa ve macera turları, lüks tatil paketleri ve daha fazlası.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Preloader -->
+  <div class="preloader">
+      <div class="loader">
+          <div class="loader-inner">
+              <div class="circle"></div>
+              <div class="text">Türkiye Keşifleri</div>
+          </div>
+      </div>
+  </div>
+
+  <!-- Custom Cursor -->
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+
+  <!-- Header -->
+  <header class="header" id="header">
+      <div class="container">
+          <div class="header-inner">
+              <div class="logo">
+                  <a href="index.html">
+                      <span class="logo-text">Türkiye <span>Keşifleri</span></span>
+                  </a>
+              </div>
+              <nav class="nav">
+                  <ul class="nav-list">
+                      <li><a href="#anasayfa" class="nav-link active">Ana Sayfa</a></li>
+                      <li><a href="#hakkimizda" class="nav-link">Hakkımızda</a></li>
+                      <li><a href="#turlar" class="nav-link">Turlarımız</a></li>
+                      <li><a href="#destinasyonlar" class="nav-link">Destinasyonlar</a></li>
+                      <li><a href="#blog" class="nav-link">Blog</a></li>
+                      <li><a href="#iletisim" class="nav-link">İletişim</a></li>
+                  </ul>
+              </nav>
+              <div class="header-actions">
+                  <a href="#iletisim" class="btn btn-primary">Bize Ulaşın</a>
+                  <div class="mobile-menu-toggle">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="anasayfa">
+      <div class="hero-slider">
+          <div class="hero-slide active">
+              <div class="hero-image" style="background-image: url('https://images.unsplash.com/photo-1738496892062-e58205ec4597?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fFQlQzMlQkNya2l5ZSUyMEtlJUM1JTlGaWZsZXJpfGVufDB8fDB8fHww')"></div>
+              <div class="container">
+                  <div class="hero-content">
+                      <h1 class="hero-title">Türkiye'nin Eşsiz Güzelliklerini Keşfedin</h1>
+                      <p class="hero-subtitle">Kültürel ve tarihi turlardan doğa ve macera turlarına, lüks tatil paketlerinden gemi ve yat gezilerine kadar her şey burada.</p>
+                      <div class="hero-buttons">
+                          <a href="#turlar" class="btn btn-primary">Turları Keşfet</a>
+                          <a href="#iletisim" class="btn btn-outline">Bize Ulaşın</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="hero-slide">
+              <div class="hero-image" style="background-image: url('https://images.unsplash.com/photo-1733933187258-9e92ad77fede?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8VCVDMyVCQ3JraXllJTIwS2UlQzUlOUZpZmxlcml8ZW58MHx8MHx8fDA%3D')"></div>
+              <div class="container">
+                  <div class="hero-content">
+                      <h1 class="hero-title">Kapadokya'nın Büyülü Dünyasına Yolculuk</h1>
+                      <p class="hero-subtitle">Eşsiz peri bacaları, sıcak hava balonları ve yeraltı şehirleriyle unutulmaz bir deneyim.</p>
+                      <div class="hero-buttons">
+                          <a href="#turlar" class="btn btn-primary">Turları Keşfet</a>
+                          <a href="#iletisim" class="btn btn-outline">Bize Ulaşın</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="hero-slide">
+              <div class="hero-image" style="background-image: url('https://images.unsplash.com/photo-1699811136524-6405676e9b05?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFQlQzMlQkNya2l5ZSUyMEtlJUM1JTlGaWZsZXJpfGVufDB8fDB8fHww')"></div>
+              <div class="container">
+                  <div class="hero-content">
+                      <h1 class="hero-title">İstanbul'un Tarihi Dokusunu Hissedin</h1>
+                      <p class="hero-subtitle">İki kıtayı birleştiren şehirde, Bizans ve Osmanlı mirasının izlerini sürün.</p>
+                      <div class="hero-buttons">
+                          <a href="#turlar" class="btn btn-primary">Turları Keşfet</a>
+                          <a href="#iletisim" class="btn btn-outline">Bize Ulaşın</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="hero-controls">
+          <div class="hero-dots">
+              <span class="hero-dot active" data-slide="0"></span>
+              <span class="hero-dot" data-slide="1"></span>
+              <span class="hero-dot" data-slide="2"></span>
+          </div>
+          <div class="hero-arrows">
+              <button class="hero-arrow prev"><i class="fas fa-chevron-left"></i></button>
+              <button class="hero-arrow next"><i class="fas fa-chevron-right"></i></button>
+          </div>
+      </div>
+      <div class="scroll-down">
+          <span>Keşfet</span>
+          <i class="fas fa-chevron-down"></i>
+      </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features">
+      <div class="container">
+          <div class="features-grid">
+              <div class="feature-item">
+                  <div class="feature-icon">
+                      <i class="fas fa-landmark"></i>
+                  </div>
+                  <h3>Kültürel ve Tarihi Turlar</h3>
+                  <p>Antik kentlerden Osmanlı saraylarına, Türkiye'nin zengin tarihini keşfedin.</p>
+              </div>
+              <div class="feature-item">
+                  <div class="feature-icon">
+                      <i class="fas fa-mountain"></i>
+                  </div>
+                  <h3>Doğa ve Macera Turları</h3>
+                  <p>Dağlar, kanyonlar ve nehirlerde adrenalin dolu aktiviteler sizi bekliyor.</p>
+              </div>
+              <div class="feature-item">
+                  <div class="feature-icon">
+                      <i class="fas fa-umbrella-beach"></i>
+                  </div>
+                  <h3>Lüks Tatil Paketleri</h3>
+                  <p>Beş yıldızlı oteller, özel hizmetler ve konforlu bir tatil deneyimi.</p>
+              </div>
+              <div class="feature-item">
+                  <div class="feature-icon">
+                      <i class="fas fa-ship"></i>
+                  </div>
+                  <h3>Gemi ve Yat Gezileri</h3>
+                  <p>Türkiye'nin muhteşem kıyılarını denizden keşfetmenin ayrıcalığını yaşayın.</p>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about section" id="hakkimizda">
+      <div class="container">
+          <div class="section-header">
+              <span class="section-subtitle">Hakkımızda</span>
+              <h2 class="section-title">Türkiye'nin En İyi Tur Deneyimlerini Sunuyoruz</h2>
+              <p class="section-description">2005 yılından beri Türkiye'nin dört bir yanında unutulmaz seyahat deneyimleri yaratıyoruz.</p>
+          </div>
+          <div class="about-content">
+              <div class="about-image">
+                  <img src="https://images.unsplash.com/photo-1714506458976-393ab3a943c5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fFQlQzMlQkNya2l5ZSUyMEtlJUM1JTlGaWZsZXJpfGVufDB8fDB8fHww" alt="Türkiye Keşifleri Ekibi">
+                  <div class="experience-badge">
+                      <span class="number">18+</span>
+                      <span class="text">Yıllık Deneyim</span>
+                  </div>
+              </div>
+              <div class="about-text">
+                  <h3>Neden Bizi Seçmelisiniz?</h3>
+                  <p>Türkiye Keşifleri olarak, ülkemizin eşsiz güzelliklerini dünya ile buluşturmak için çalışıyoruz. Deneyimli rehberlerimiz, özenle hazırlanmış rotalarımız ve kişiselleştirilmiş hizmetlerimizle her misafirimize unutulmaz anılar sunuyoruz.</p>
+                  
+                  <div class="about-features">
+                      <div class="about-feature">
+                          <div class="about-feature-icon">
+                              <i class="fas fa-check-circle"></i>
+                          </div>
+                          <div class="about-feature-text">
+                              <h4>Uzman Rehberler</h4>
+                              <p>Tüm rehberlerimiz lisanslı ve en az 5 yıl deneyimlidir.</p>
+                          </div>
+                      </div>
+                      <div class="about-feature">
+                          <div class="about-feature-icon">
+                              <i class="fas fa-check-circle"></i>
+                          </div>
+                          <div class="about-feature-text">
+                              <h4>Küçük Gruplar</h4>
+                              <p>Maksimum 12 kişilik gruplarla daha kişisel bir deneyim.</p>
+                          </div>
+                      </div>
+                      <div class="about-feature">
+                          <div class="about-feature-icon">
+                              <i class="fas fa-check-circle"></i>
+                          </div>
+                          <div class="about-feature-text">
+                              <h4>Özel Turlar</h4>
+                              <p>İsteğinize göre özelleştirilmiş özel tur seçenekleri.</p>
+                          </div>
+                      </div>
+                      <div class="about-feature">
+                          <div class="about-feature-icon">
+                              <i class="fas fa-check-circle"></i>
+                          </div>
+                          <div class="about-feature-text">
+                              <h4>7/24 Destek</h4>
+                              <p>Seyahatiniz boyunca her an yanınızdayız.</p>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <div class="about-stats">
+                      <div class="stat">
+                          <span class="stat-number">5000+</span>
+                          <span class="stat-text">Mutlu Müşteri</span>
+                      </div>
+                      <div class="stat">
+                          <span class="stat-number">150+</span>
+                          <span class="stat-text">Tur Rotası</span>
+                      </div>
+                      <div class="stat">
+                          <span class="stat-number">25+</span>
+                          <span class="stat-text">Ödül</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- Tours Section -->
+  <section class="tours section" id="turlar">
+      <div class="container">
+          <div class="section-header">
+              <span class="section-subtitle">Turlarımız</span>
+              <h2 class="section-title">Popüler Tur Paketlerimiz</h2>
+              <p class="section-description">Türkiye'nin en güzel yerlerini keşfetmek için özenle hazırlanmış tur paketlerimiz.</p>
+          </div>
+          
+          <div class="tours-filter">
+              <button class="filter-btn active" data-filter="all">Tümü</button>
+              <button class="filter-btn" data-filter="cultural">Kültürel</button>
+              <button class="filter-btn" data-filter="nature">Doğa</button>
+              <button class="filter-btn" data-filter="luxury">Lüks</button>
+              <button class="filter-btn" data-filter="cruise">Gemi</button>
+              <button class="filter-btn" data-filter="gastronomy">Gastronomi</button>
+          </div>
+          
+          <div class="tours-grid">
+              <div class="tour-card" data-category="cultural">
+                  <div class="tour-image">
+                      <img src="https://media.istockphoto.com/id/172272460/photo/blue-mosque-courtyard.webp?a=1&b=1&s=612x612&w=0&k=20&c=EC0R2cjRdLI3WEW9zIvaeGJBG8HqSPhgxHilBuORWuc=" alt="İstanbul Tarihi Yarımada Turu">
+                      <div class="tour-tag">Kültürel</div>
+                  </div>
+                  <div class="tour-content">
+                      <div class="tour-rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <span>(48)</span>
+                      </div>
+                      <h3 class="tour-title">İstanbul Tarihi Yarımada Turu</h3>
+                      <div class="tour-info">
+                          <div class="info-item">
+                              <i class="fas fa-clock"></i>
+                              <span>1 Gün</span>
+                          </div>
+                          <div class="info-item">
+                              <i class="fas fa-user-friends"></i>
+                              <span>Max 10 Kişi</span>
+                          </div>
+                          <div class="info-item">
+                              <i class="fas fa-map-marker-alt"></i>
+                              <span>İstanbul</span>
+                          </div>
+                      </div>
+                      <div class="tour-footer">
+                          <div class="tour-price">
+                              <span class="price">1.200 ₺</span>
+                              <span class="per">/ kişi</span>
+                          </div>
+                          <a href="#" class="btn btn-sm">Detaylar</a>
+                      </div>
+                  </div>
+              </div>
+              
+              <div class="tour-card" data-category="nature">
+                  <div class="tour-image">
+                      <img src="https://images.unsplash.com/photo-1604750201786-0eeb77924f0f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8S2FwYWRva3lhJTIwQmFsb24lMjBUdXJ1fGVufDB8fDB8fHww" alt="Kapadokya Balon Turu">
+                      <div class="tour-tag">Doğa</div>
+                  </div>
+                  <div class="tour-content">
+                      <div class="tour-rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <span>(72)</span>
+                      </div>
+                      <h3 class="tour-title">Kapadokya Balon Turu</h3>
+                      <div class="tour-info">
+                          <div class="info-item">
+                              <i class="fas fa-clock"></i>
+                              <span>3 Saat</span>
+                          </div>
+                          <div class="info-item">
+                              <i class="fas fa-user-friends"></i>
+                              <span>Max 16 Kişi</span>
+                          </div>
+                          <div class="info-item">
+                              <i class="fas fa-map-marker-alt"></i>
+                              <span>Nevşehir</span>
+                          </div>
+                      </div>
+                      <div class="tour-footer">
+                          <div class="tour-price">
+                              <span class="price">3.500 ₺</span>
+                              <span class="per">/ kişi</span>
+                          </div>
+                          <a href="#" class="btn btn-sm">Detaylar</a>
+                      </div>
+                  </div>
+              </div>
+              
+              <div class="tour-card" data-category="luxury">
+                  <div class="tour-image">
+                      <img src="https://media.istockphoto.com/id/1195782080/photo/sunny-view-of-harbour-from-castle-of-st-peter-bodrum-mugla-province-turkey.webp?a=1&b=1&s=612x612&w=0&k=20&c=aLJYxUSsyZ8LL7PQWCRqM8Jt5Ejzy_NkAHt5GXVqQgk=" alt="Bodrum Lüks Yacht Turu">
+                      <div class="tour-tag">Lüks</div>
+                  </div>
+                  <div class="tour-content">
+                      <div class="tour-rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <span>(35)</span>
+                      </div>
+                      <h3 class="tour-title">Bodrum Lüks Yacht Turu</h3>
+                      <div class="tour-info">
+                          <div class="info-item">
+                              <i class="fas fa-clock"></i>
+                              <span>7 Gün</span>
+                          </div>
+                          <div class="info-item">
+                              <i class="fas fa-user-friends"></i>
+                              <span>Max 8 Kişi</span>
+                          </div>
+                          <div class="info-item">
+                              <i class="fas fa-map-marker-alt"></i>
+                              <span>Bodrum</span>
+                          </div>
+                      </div>
+                      <div class="tour-footer">
+                          <div class="tour-price">
+                              <span class="price">25.000 ₺</span>
+                              <span class="per">/ kişi</span>
+                          </div>
+                          <a href="#" class="btn btn-sm">Detaylar</a>
+                      </div>
+                  </div>
+              </div>
+              
+              <div class="tour-card" data-category="cruise">
+                  <div class="tour-image">
+                      <img src="https://images.unsplash.com/photo-1720625578485-d7170cec300d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fE1hdmklMjBZb2xjdWx1a3xlbnwwfHwwfHx8MA%3D%3D" alt="Mavi Yolculuk">
+                      <div class="tour-tag">Gemi</div>
+                  </div>
+                  <div class="tour-content">
+                      <div class="tour-rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star-half-alt"></i>
+                          <span>(56)</span>
+                      </div>
+                      <h3 class="tour-title">Mavi Yolculuk</h3>
+                      <div class="tour-info">
+                          <div class="info-item">
+                              <i class="fas fa-clock"></i>
+                              <span>4 Gün</span>
+                          </div>
+                          <div class="info-item">
+                              <i class="fas fa-user-friends"></i>
+                              <span>Max 12 Kişi</span>
+                          </div>
+                          <div class="info-item">
+                              <i class="fas fa-map-marker-alt"></i>
+                              <span>Fethiye-Marmaris</span>
+                          </div>
+                      </div>
+                      <div class="tour-footer">
+                          <div class="tour-price">
+                              <span class="price">8.500 ₺</span>
+                              <span class="per">/ kişi</span>
+                          </div>
+                          <a href="#" class="btn btn-sm">Detaylar</a>
+                      </div>
+                  </div>
+              </div>
+              
+              <div class="tour-card" data-category="gastronomy">
+                  <div class="tour-image">
+                      <img src="https://images.unsplash.com/photo-1624197422600-71cba707fd27?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8R2F6aWFudGVwJTIwR2FzdHJvbm9taSUyMFR1cnV8ZW58MHx8MHx8fDA%3D" alt="Gaziantep Gastronomi Turu">
+                      <div class="tour-tag">Gastronomi</div>
+                  </div>
+                  <div class="tour-content">
+                      <div class="tour-rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <span>(42)</span>
+                      </div>
+                      <h3 class="tour-title">Gaziantep Gastronomi Turu</h3>
+                      <div class="tour-info">
+                          <div class="info-item">
+                              <i class="fas fa-clock"></i>
+                              <span>3 Gün</span>
+                          </div>
+                          <div class="info-item">
+                              <i class="fas fa-user-friends"></i>
+                              <span>Max 8 Kişi</span>
+                          </div>
+                          <div class="info-item">
+                              <i class="fas fa-map-marker-alt"></i>
+                              <span>Gaziantep</span>
+                          </div>
+                      </div>
+                      <div class="tour-footer">
+                          <div class="tour-price">
+                              <span class="price">4.800 ₺</span>
+                              <span class="per">/ kişi</span>
+                          </div>
+                          <a href="#" class="btn btn-sm">Detaylar</a>
+                      </div>
+                  </div>
+              </div>
+              
+              <div class="tour-card" data-category="cultural">
+                  <div class="tour-image">
+                      <img src="https://plus.unsplash.com/premium_photo-1715952446458-187c271accdf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8RWZlcyUyMEFudGlrJTIwS2VudGklMjBUdXJ1fGVufDB8fDB8fHww" alt="Efes Antik Kenti Turu">
+                      <div class="tour-tag">Kültürel</div>
+                  </div>
+                  <div class="tour-content">
+                      <div class="tour-rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <span>(63)</span>
+                      </div>
+                      <h3 class="tour-title">Efes Antik Kenti Turu</h3>
+                      <div class="tour-info">
+                          <div class="info-item">
+                              <i class="fas fa-clock"></i>
+                              <span>1 Gün</span>
+                          </div>
+                          <div class="info-item">
+                              <i class="fas fa-user-friends"></i>
+                              <span>Max 15 Kişi</span>
+                          </div>
+                          <div class="info-item">
+                              <i class="fas fa-map-marker-alt"></i>
+                              <span>İzmir</span>
+                          </div>
+                      </div>
+                      <div class="tour-footer">
+                          <div class="tour-price">
+                              <span class="price">950 ₺</span>
+                              <span class="per">/ kişi</span>
+                          </div>
+                          <a href="#" class="btn btn-sm">Detaylar</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="tours-cta">
+              <a href="#" class="btn btn-primary">Tüm Turları Görüntüle</a>
+          </div>
+      </div>
+  </section>
+
+  <!-- Destinations Section -->
+  <section class="destinations section" id="destinasyonlar">
+      <div class="container">
+          <div class="section-header">
+              <span class="section-subtitle">Destinasyonlar</span>
+              <h2 class="section-title">Popüler Destinasyonlarımız</h2>
+              <p class="section-description">Türkiye'nin en çok ziyaret edilen ve beğenilen destinasyonları.</p>
+          </div>
+          
+          <div class="destinations-grid">
+              <div class="destination-card large">
+                  <img src="https://images.unsplash.com/photo-1592130313632-819266b1826e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8JUM0JUIwc3RhbmJ1bHxlbnwwfHwwfHx8MA%3D%3D" alt="İstanbul">
+                  <div class="destination-content">
+                      <h3>İstanbul</h3>
+                      <p>İki kıtayı birleştiren şehir</p>
+                      <a href="#" class="btn btn-sm">Keşfet</a>
+                  </div>
+              </div>
+              <div class="destination-card">
+                  <img src="https://images.unsplash.com/photo-1549740425-5e9ed4d8cd34?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8S2FwYWRva3lhfGVufDB8fDB8fHww" alt="Kapadokya">
+                  <div class="destination-content">
+                      <h3>Kapadokya</h3>
+                      <p>Peri bacaları diyarı</p>
+                      <a href="#" class="btn btn-sm">Keşfet</a>
+                  </div>
+              </div>
+              <div class="destination-card">
+                  <img src="https://images.unsplash.com/photo-1570135460241-4bd244c80f64?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8UGFtdWtrYWxlfGVufDB8fDB8fHww" alt="Pamukkale">
+                  <div class="destination-content">
+                      <h3>Pamukkale</h3>
+                      <p>Beyaz travertenler</p>
+                      <a href="#" class="btn btn-sm">Keşfet</a>
+                  </div>
+              </div>
+              <div class="destination-card">
+                  <img src="https://images.unsplash.com/photo-1585338475469-b02ff0ec409c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8QW50YWx5YXxlbnwwfHwwfHx8MA%3D%3D" alt="Antalya">
+                  <div class="destination-content">
+                      <h3>Antalya</h3>
+                      <p>Turkuaz sahiller</p>
+                      <a href="#" class="btn btn-sm">Keşfet</a>
+                  </div>
+              </div>
+              <div class="destination-card">
+                  <img src="https://images.unsplash.com/photo-1582380625189-423697e32b92?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8RWZlc3xlbnwwfHwwfHx8MA%3D%3D" alt="Efes">
+                  <div class="destination-content">
+                      <h3>Efes</h3>
+                      <p>Antik dünya</p>
+                      <a href="#" class="btn btn-sm">Keşfet</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section class="experience section">
+      <div class="container">
+          <div class="experience-content">
+              <div class="experience-text">
+                  <span class="section-subtitle">Deneyimler</span>
+                  <h2 class="section-title">Unutulmaz Anılar Yaratın</h2>
+                  <p>Türkiye'nin eşsiz güzelliklerini keşfederken, sadece bir turist olarak değil, yerel kültürün bir parçası olarak deneyimleyin. Özel ve kişiselleştirilmiş turlarımızla, her anınızı unutulmaz kılıyoruz.</p>
+                  
+                  <div class="experience-features">
+                      <div class="experience-feature">
+                          <div class="feature-icon">
+                              <i class="fas fa-utensils"></i>
+                          </div>
+                          <div class="feature-text">
+                              <h4>Yerel Lezzetler</h4>
+                              <p>Türk mutfağının eşsiz lezzetlerini keşfedin.</p>
+                          </div>
+                      </div>
+                      <div class="experience-feature">
+                          <div class="feature-icon">
+                              <i class="fas fa-hands-helping"></i>
+                          </div>
+                          <div class="feature-text">
+                              <h4>Yerel Halk ile Etkileşim</h4>
+                              <p>Yerel halkın yaşamını yakından tanıyın.</p>
+                          </div>
+                      </div>
+                      <div class="experience-feature">
+                          <div class="feature-icon">
+                              <i class="fas fa-camera"></i>
+                          </div>
+                          <div class="feature-text">
+                              <h4>Fotoğraf Fırsatları</h4>
+                              <p>Eşsiz manzaraları ölümsüzleştirin.</p>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <a href="#turlar" class="btn btn-primary">Turları Keşfet</a>
+              </div>
+              <div class="experience-image">
+                  <img src="https://plus.unsplash.com/premium_photo-1678481816336-a1b6ed273c98?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8VCVDMyVCQ3JraXllJ2RlJTIwRGVuZXlpbXxlbnwwfHwwfHx8MA%3D%3D" alt="Türkiye'de Deneyim">
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials section">
+      <div class="container">
+          <div class="section-header">
+              <span class="section-subtitle">Yorumlar</span>
+              <h2 class="section-title">Misafirlerimiz Ne Diyor?</h2>
+              <p class="section-description">Türkiye Keşifleri ile unutulmaz anılar biriktiren misafirlerimizin yorumları.</p>
+          </div>
+          
+          <div class="testimonials-slider">
+              <div class="testimonial-slide active">
+                  <div class="testimonial-content">
+                      <div class="testimonial-rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                      </div>
+                      <p class="testimonial-text">"Kapadokya turu gerçekten muhteşemdi! Rehberimiz çok bilgili ve yardımseverdi. Balon turu ise hayatımın en güzel deneyimlerinden biriydi. Kesinlikle herkese tavsiye ederim."</p>
+                      <div class="testimonial-author">
+                          <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aHVtYW5zJTIwZmFjZXxlbnwwfHwwfHx8MA%3D%3D" alt="Ayşe Yılmaz" class="author-image">
+                          <div class="author-info">
+                              <h4>Ayşe Yılmaz</h4>
+                              <span>İstanbul</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="testimonial-slide">
+                  <div class="testimonial-content">
+                      <div class="testimonial-rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                      </div>
+                      <p class="testimonial-text">"İstanbul tarihi yarımada turu beklentilerimin çok üzerindeydi. Rehberimiz Mehmet Bey'in bilgisi ve anlatımı sayesinde tarih adeta canlandı. Küçük grup olması da çok avantajlıydı."</p>
+                      <div class="testimonial-author">
+                          <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aHVtYW5zJTIwZmFjZXxlbnwwfHwwfHx8MA%3D%3D" alt="Mehmet Kaya" class="author-image">
+                          <div class="author-info">
+                              <h4>Mehmet Kaya</h4>
+                              <span>Ankara</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="testimonial-slide">
+                  <div class="testimonial-content">
+                      <div class="testimonial-rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star-half-alt"></i>
+                      </div>
+                      <p class="testimonial-text">"Bodrum'da yaptığımız yat turu hayatımızın en lüks tatiliydi. Her şey mükemmeldi, ekip çok profesyoneldi ve yemekler harikaydı. Gelecek yıl tekrar geleceğiz!"</p>
+                      <div class="testimonial-author">
+                          <img src="https://plus.unsplash.com/premium_photo-1671656333460-793292581bc6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aHVtYW5zJTIwZmFjZXxlbnwwfHwwfHx8MA%3D%3D" alt="Zeynep Demir" class="author-image">
+                          <div class="author-info">
+                              <h4>Zeynep Demir</h4>
+                              <span>İzmir</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="testimonial-controls">
+              <div class="testimonial-dots">
+                  <span class="testimonial-dot active" data-slide="0"></span>
+                  <span class="testimonial-dot" data-slide="1"></span>
+                  <span class="testimonial-dot" data-slide="2"></span>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- Blog Section -->
+  <section class="blog section" id="blog">
+      <div class="container">
+          <div class="section-header">
+              <span class="section-subtitle">Blog</span>
+              <h2 class="section-title">Seyahat Blogumuz</h2>
+              <p class="section-description">Türkiye'nin dört bir yanından gezi notları, ipuçları ve daha fazlası.</p>
+          </div>
+          
+          <div class="blog-grid">
+              <div class="blog-card">
+                  <div class="blog-image">
+                      <img src="https://images.unsplash.com/photo-1608393865125-0ae6ab4689db?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8S2FwYWRva3lhJ2RhJTIwQmFsb24lMjBUdXJ1fGVufDB8fDB8fHww" alt="Kapadokya'da Balon Turu">
+                      <div class="blog-date">
+                          <span class="day">15</span>
+                          <span class="month">Haz</span>
+                      </div>
+                  </div>
+                  <div class="blog-content">
+                      <div class="blog-category">Doğa</div>
+                      <h3 class="blog-title">Kapadokya'da Balon Turu: Gökyüzünden Peri Bacaları</h3>
+                      <p class="blog-excerpt">Kapadokya'nın eşsiz manzarasını gökyüzünden izlemenin büyüsünü keşfedin. Balon turları hakkında bilmeniz gereken her şey...</p>
+                      <a href="#" class="blog-link">Devamını Oku <i class="fas fa-arrow-right"></i></a>
+                  </div>
+              </div>
+              
+              <div class="blog-card">
+                  <div class="blog-image">
+                      <img src="https://media.istockphoto.com/id/638688992/photo/hagia-sophia-in-istanbul-turkey.webp?a=1&b=1&s=612x612&w=0&k=20&c=ZuSLDJzcaQLbqezJs1n0CNxlBplGilVsbWZTNhYADX8=" alt="İstanbul'un Gizli Köşeleri">
+                      <div class="blog-date">
+                          <span class="day">28</span>
+                          <span class="month">May</span>
+                      </div>
+                  </div>
+                  <div class="blog-content">
+                      <div class="blog-category">Kültür</div>
+                      <h3 class="blog-title">İstanbul'un Gizli Köşeleri: Turistlerin Bilmediği Yerler</h3>
+                      <p class="blog-excerpt">İstanbul'un turistik bölgelerinin ötesinde, yerel halkın tercih ettiği gizli köşeleri ve otantik mekanları keşfedin...</p>
+                      <a href="#" class="blog-link">Devamını Oku <i class="fas fa-arrow-right"></i></a>
+                  </div>
+              </div>
+              
+              <div class="blog-card">
+                  <div class="blog-image">
+                      <img src="https://media.istockphoto.com/id/1403126390/photo/galata-tower-in-istanbul.webp?a=1&b=1&s=612x612&w=0&k=20&c=06lbb3XQHOqVv5vB3dijemrqrE2ZteNSwl0sxsg1eH8=" alt="Türk Mutfağı">
+                      <div class="blog-date">
+                          <span class="day">10</span>
+                          <span class="month">May</span>
+                      </div>
+                  </div>
+                  <div class="blog-content">
+                      <div class="blog-category">Gastronomi</div>
+                      <h3 class="blog-title">Türk Mutfağının Eşsiz Lezzetleri: Bölge Bölge Yemekler</h3>
+                      <p class="blog-excerpt">Türkiye'nin yedi bölgesinden eşsiz lezzetler, yerel spesiyaliteler ve mutlaka tatmanız gereken yemekler...</p>
+                      <a href="#" class="blog-link">Devamını Oku <i class="fas fa-arrow-right"></i></a>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="blog-cta">
+              <a href="#" class="btn btn-primary">Tüm Yazıları Görüntüle</a>
+          </div>
+      </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta">
+      <div class="container">
+          <div class="cta-content">
+              <h2>Hayalinizdeki Tatili Planlamaya Hazır mısınız?</h2>
+              <p>Size özel tur paketlerimiz ve fırsatlarımız hakkında bilgi almak için hemen bize ulaşın.</p>
+              <a href="#iletisim" class="btn btn-light">Şimdi Bize Ulaşın</a>
+          </div>
+      </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact section" id="iletisim">
+      <div class="container">
+          <div class="section-header">
+              <span class="section-subtitle">İletişim</span>
+              <h2 class="section-title">Bize Ulaşın</h2>
+              <p class="section-description">Sorularınız, önerileriniz veya rezervasyon talepleriniz için bizimle iletişime geçin.</p>
+          </div>
+          
+          <div class="contact-content">
+              <div class="contact-info">
+                  <div class="contact-item">
+                      <div class="contact-icon">
+                          <i class="fas fa-map-marker-alt"></i>
+                      </div>
+                      <div class="contact-text">
+                          <h3>Adres</h3>
+                          <p>Barbaros Bulvarı No:56, Beşiktaş, 34353 İstanbul, Türkiye</p>
+                      </div>
+                  </div>
+                  <div class="contact-item">
+                      <div class="contact-icon">
+                          <i class="fas fa-phone"></i>
+                      </div>
+                      <div class="contact-text">
+                          <h3>Telefon</h3>
+                          <p>+90 212 345 67 89</p>
+                      </div>
+                  </div>
+                  <div class="contact-item">
+                      <div class="contact-icon">
+                          <i class="fas fa-envelope"></i>
+                      </div>
+                      <div class="contact-text">
+                          <h3>E-posta</h3>
+                          <p>info@turkiyekesifleri.com</p>
+                      </div>
+                  </div>
+                  <div class="contact-item">
+                      <div class="contact-icon">
+                          <i class="fas fa-clock"></i>
+                      </div>
+                      <div class="contact-text">
+                          <h3>Çalışma Saatleri</h3>
+                          <p>Pazartesi - Cumartesi: 09:00 - 18:00</p>
+                          <p>Pazar: Kapalı</p>
+                      </div>
+                  </div>
+                  
+                  <div class="contact-social">
+                      <h3>Sosyal Medya</h3>
+                      <div class="social-links">
+                          <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                          <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                          <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                          <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                      </div>
+                  </div>
+              </div>
+              
+              <div class="contact-form">
+                  <form id="contactForm">
+                      <div class="form-group">
+                          <label for="name">Adınız Soyadınız</label>
+                          <input type="text" id="name" name="name" required>
+                      </div>
+                      <div class="form-group">
+                          <label for="email">E-posta Adresiniz</label>
+                          <input type="email" id="email" name="email" required>
+                      </div>
+                      <div class="form-group">
+                          <label for="phone">Telefon Numaranız</label>
+                          <input type="tel" id="phone" name="phone" required>
+                      </div>
+                      <div class="form-group">
+                          <label for="subject">Konu</label>
+                          <select id="subject" name="subject" required>
+                              <option value="" disabled selected>Seçiniz</option>
+                              <option value="reservation">Rezervasyon</option>
+                              <option value="information">Bilgi Talebi</option>
+                              <option value="feedback">Geri Bildirim</option>
+                              <option value="other">Diğer</option>
+                          </select>
+                      </div>
+                      <div class="form-group">
+                          <label for="message">Mesajınız</label>
+                          <textarea id="message" name="message" rows="5" required></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Gönder</button>
+                  </form>
+              </div>
+          </div>
+          
+          <div class="contact-map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.1375965577!2d29.00510687679689!3d41.04224491781569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab7a2a2c3b963%3A0x7671d1b9817b8519!2sBarbaro%C5%9F%20Blv.%2C%20Be%C5%9Fikta%C5%9F%2F%C4%B0stanbul!5e0!3m2!1str!2str!4v1625764215694!5m2!1str!2str" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+      </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+      <div class="container">
+          <div class="footer-content">
+              <div class="footer-logo">
+                  <a href="index.html">
+                      <span class="logo-text">Türkiye <span>Keşifleri</span></span>
+                  </a>
+                  <p>Türkiye'nin en güzel yerlerini keşfetmeniz için 2005 yılından beri hizmetinizdeyiz.</p>
+              </div>
+              <div class="footer-links">
+                  <h3>Hızlı Linkler</h3>
+                  <ul>
+                      <li><a href="#anasayfa">Ana Sayfa</a></li>
+                      <li><a href="#hakkimizda">Hakkımızda</a></li>
+                      <li><a href="#turlar">Turlarımız</a></li>
+                      <li><a href="#destinasyonlar">Destinasyonlar</a></li>
+                      <li><a href="#blog">Blog</a></li>
+                      <li><a href="#iletisim">İletişim</a></li>
+                  </ul>
+              </div>
+              <div class="footer-links">
+                  <h3>Turlar</h3>
+                  <ul>
+                      <li><a href="#">Kültürel ve Tarihi Turlar</a></li>
+                      <li><a href="#">Doğa ve Macera Turları</a></li>
+                      <li><a href="#">Lüks Tatil Paketleri</a></li>
+                      <li><a href="#">Gemi ve Yat Gezileri</a></li>
+                      <li><a href="#">Gastronomi Turları</a></li>
+                      <li><a href="#">Özel ve Kişiselleştirilmiş Turlar</a></li>
+                  </ul>
+              </div>
+              <div class="footer-newsletter">
+                  <h3>Bülten</h3>
+                  <p>En yeni tur paketlerimiz ve fırsatlarımızdan haberdar olmak için bültenimize abone olun.</p>
+                  <form class="newsletter-form">
+                      <input type="email" placeholder="E-posta adresiniz" required>
+                      <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                  </form>
+              </div>
+          </div>
+          <div class="footer-bottom">
+              <p>&copy; 2023 Türkiye Keşifleri. Tüm hakları saklıdır.</p>
+              <div class="footer-bottom-links">
+                  <a href="gizlilik-politikasi.html">Gizlilik Politikası</a>
+                  <a href="cerez-politikasi.html">Çerez Politikası</a>
+              </div>
+          </div>
+      </div>
+  </footer>
+
+  <!-- Cookie Consent -->
+  <div class="cookie-consent" id="cookieConsent">
+      <div class="cookie-content">
+          <div class="cookie-text">
+              <i class="fas fa-cookie-bite"></i>
+              <p>Bu web sitesi, size en iyi deneyimi sunmak için çerezleri kullanmaktadır. Sitemizi kullanmaya devam ederek, <a href="cerez-politikasi.html">Çerez Politikamızı</a> kabul etmiş olursunuz.</p>
+          </div>
+          <div class="cookie-buttons">
+              <button id="cookieAccept" class="btn btn-primary btn-sm">Kabul Et</button>
+              <button id="cookieReject" class="btn btn-outline btn-sm">Reddet</button>
+          </div>
+      </div>
+  </div>
+
+  <!-- Back to Top Button -->
+  <a href="#" class="back-to-top" id="backToTop">
+      <i class="fas fa-chevron-up"></i>
+  </a>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
+
